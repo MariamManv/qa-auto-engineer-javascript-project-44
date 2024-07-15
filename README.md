@@ -2,7 +2,7 @@
 The 'Brain_games' project is a collection of five mathematical games developed using JS. In these games, users are presented with various math problems to solve, allowing them to develop their skills and improve their scores.
 
 ### Installation and Usage
-1.Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 
 git clone https://github.com/MariamManv/qa-auto-engineer-javascript-project-44.git
 
