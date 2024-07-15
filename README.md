@@ -1,4 +1,4 @@
-#**'Brain_games' project**
+# **'Brain_games' project**
 The 'Brain_games' project is a collection of five mathematical games developed using JS. In these games, users are presented with various math problems to solve, allowing them to develop their skills and improve their scores.
 
 ###Installation and Usage
