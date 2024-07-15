@@ -1,6 +1,3 @@
-import { Math } from 'math'
-
-
 export const rulesOfTheGame = 'What is the result of the expression?';
 
 
