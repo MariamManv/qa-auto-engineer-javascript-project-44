@@ -1,6 +1,3 @@
-import { random } from 'math'
-
-
 export const rulesOfTheGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 
