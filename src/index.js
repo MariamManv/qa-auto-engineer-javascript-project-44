@@ -14,7 +14,7 @@ export const executeBrainGames = (specificGame) => {
         let question, correctAnswer = specificGame.getQuestionAndCorrectAnswer();
         let userInput;
         console.log(question);
-        userInput = prompt('Your answer: ');
+        userInput = readlineSync.question('Your answer: ');
         if (userInput === correctAnswer) {
             count += 1;
             console.log('Correct!');
