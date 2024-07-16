@@ -20,6 +20,9 @@
   "devDependencies": {
     "eslint": "^9.6.0"
   },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
   "engines": {
     "node": ">=14"
   }
