@@ -24,5 +24,8 @@ export const getQuestionAndCorrectAnswer = () => {
     const correctAnswer = Sring(progression[correctIndex]);
     progression[correctIndex] = '..';
     const finishedProgression = progression.join(' ');
-    return finishedProgression, correctAnswer
+    return {
+        question: finishedProgression,
+        correctAnswer: correctAnswer
+    };
 };

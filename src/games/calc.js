@@ -19,5 +19,8 @@ export const getQuestionAndCorrectAnswer = () => {
     } else {
         correctAnswer = String(randomNumber1 * randomNumber2);
     };
-    return `${randomNumber1} ${randomOperation} ${randomNumber2}`, correctAnswer;
+    return {
+        question: `${randomNumber1} ${randomOperation} ${randomNumber2}`,
+        correctAnswer: correctAnswer
+    };
 }

@@ -18,5 +18,8 @@ export const getQuestionAndCorrectAnswer = () => {
     } else {
         correctAnswer = 'no';
     };
-    return randomNumber, correctAnswer
+    return {
+        question: randomNumber,
+        correctAnswer: correctAnswer
+    };
 };
