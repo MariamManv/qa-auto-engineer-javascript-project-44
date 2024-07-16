@@ -19,8 +19,10 @@ npm install
 5. Run the script of the game, that you want to play:
 
 brain-even : this game gives you a bunch of numbers, you'll have to detirmine if they're even or not;
+[![asciicast](https://asciinema.org/a/DWf9RalbFEB8jsoeohOheXHB3.svg)](https://asciinema.org/a/DWf9RalbFEB8jsoeohOheXHB3)
 
 brain-calc : this game gives you a bunch of mathematical equasions that you'll have to solve;
+[![asciicast](https://asciinema.org/a/X2Ajr0KXGUcmnal3plmzMmTzM.svg)](https://asciinema.org/a/X2Ajr0KXGUcmnal3plmzMmTzM)
 
 brain-gcd : this game gives you two numbers, you'll have to find their grestest common devidor;
 
