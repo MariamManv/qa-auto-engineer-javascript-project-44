@@ -19,7 +19,7 @@ export const executeBrainGames = (specificGame) => {
             count += 1;
             console.log('Correct!');
             if (count === roundNumber) {
-                console.log(`Congratulations, ${userName}`)
+                console.log(`Congratulations, ${userName}!`)
             }
         } else {
             console.log(`'${userInput}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
