@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "eslint": "^9.6.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
