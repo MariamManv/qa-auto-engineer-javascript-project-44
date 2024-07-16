@@ -22,7 +22,7 @@ export const executeBrainGames = (specificGame) => {
                 console.log(`Congratulations, ${userName}`)
             }
         } else {
-            console.log(`${userInput} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${userName}!`);
+            console.log(`'${userInput}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
             break
         }
 
