@@ -6,8 +6,8 @@ export const maxNumber = 100;
 
 
 export const getQuestionAndCorrectAnswer = () => {
-    const randomNumber1 = (Math.random() * (maxNumber - minNumber + 1)) + minNumber;
-    const randomNumber2 = (Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+    const randomNumber1 = Math.floor((Math.random() * (maxNumber - minNumber + 1)) + minNumber);
+    const randomNumber2 = Math.floor((Math.random() * (maxNumber - minNumber + 1)) + minNumber);
     const operations = ['+', '-', '*'];
     const randomIndex = Math.floor(Math.random() * (operations.length - 1));
     const randomOperation = operations[randomIndex];

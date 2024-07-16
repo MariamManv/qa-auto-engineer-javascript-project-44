@@ -15,8 +15,8 @@ export const findGcd = (number1, number2) => {
 
 
 export const getQuestionAndCorrectAnswer = () => {
-    const randomNumber1 = (Math.random() * (maxNumber - minNumber + 1)) + minNumber;
-    const randomNumber2 = (Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+    const randomNumber1 = Math.floor((Math.random() * (maxNumber - minNumber + 1)) + minNumber);
+    const randomNumber2 = Math.floor((Math.random() * (maxNumber - minNumber + 1)) + minNumber);
     const maxDivisor = findGcd(randomNumber1, randomNumber2);
     const correctAnswer = String(maxDivisor);
     return {
