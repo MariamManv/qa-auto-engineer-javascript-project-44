@@ -18,7 +18,7 @@ export const getQuestionAndCorrectAnswer = () => {
         i += 1
     }
     const correctIndex = Math.floor(Math.random() * progressionLength);
-    const correctAnswer = Sring(progression[correctIndex]);
+    const correctAnswer = String(progression[correctIndex]);
     progression[correctIndex] = '..';
     const finishedProgression = progression.join(' ');
     return {
