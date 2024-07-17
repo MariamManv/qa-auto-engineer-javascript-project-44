@@ -12,9 +12,7 @@ git clone https://github.com/MariamManv/qa-auto-engineer-javascript-project-44.g
 
 cd qa-auto-engineer-javascript-project-44
 
-4. Install the project dependencies by running the command:
-
-npm install
+4. Install the project dependencies.
 
 5. Run the script of the game, that you want to play:
 
