@@ -28,8 +28,10 @@ brain-gcd : this game gives you two numbers, you'll have to find their grestest 
 [![asciicast](https://asciinema.org/a/lKrHsE5dcQheBtiwISZghaYkJ.svg)](https://asciinema.org/a/lKrHsE5dcQheBtiwISZghaYkJ)
 
 brain-progression : this game gives you a progression with one missing number, you'll hae ti guess that number;
+[![asciicast](https://asciinema.org/a/dSRNaao0l9kKOaR5h7r1Xw4AO.svg)](https://asciinema.org/a/dSRNaao0l9kKOaR5h7r1Xw4AO)
 
 brain-prime : this game gives you a bunch of numbers, you'll have to detirmine if they're prime or not;
+[![asciicast](https://asciinema.org/a/QHYUEFJcPqHx3p2b4AEKciHmY.svg)](https://asciinema.org/a/QHYUEFJcPqHx3p2b4AEKciHmY)
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/MariamManv/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MariamManv/qa-auto-engineer-javascript-project-44/actions)
