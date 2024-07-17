@@ -1,6 +1,3 @@
-import { Math } from 'Math';
-
-
 export const rulesOfTheGame = 'What number is missing in the progression?';
 
 

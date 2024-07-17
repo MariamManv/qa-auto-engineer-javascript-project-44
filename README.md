@@ -25,6 +25,7 @@ brain-calc : this game gives you a bunch of mathematical equasions that you'll h
 [![asciicast](https://asciinema.org/a/X2Ajr0KXGUcmnal3plmzMmTzM.svg)](https://asciinema.org/a/X2Ajr0KXGUcmnal3plmzMmTzM)
 
 brain-gcd : this game gives you two numbers, you'll have to find their grestest common devidor;
+[![asciicast](https://asciinema.org/a/lKrHsE5dcQheBtiwISZghaYkJ.svg)](https://asciinema.org/a/lKrHsE5dcQheBtiwISZghaYkJ)
 
 brain-progression : this game gives you a progression with one missing number, you'll hae ti guess that number;
 
