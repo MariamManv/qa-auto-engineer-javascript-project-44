@@ -10,9 +10,8 @@ export const executeBrainGames = (specificGame) => {
   let count = 0;
   while (count < roundNumber) {
     const { question, correctAnswer } = specificGame.getQuestionAndCorrectAnswer();
-    let userInput;
     console.log(`Question: ${question}`);
-    userInput = readlineSync.question('Your answer: ');
+    const userInput = readlineSync.question('Your answer: ');
     if (userInput === correctAnswer) {
       count += 1;
       console.log('Correct!');
