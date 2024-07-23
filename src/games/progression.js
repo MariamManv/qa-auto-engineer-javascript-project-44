@@ -1,3 +1,5 @@
+import getRandomNumber from '../utils.js';
+
 export const rulesOfTheGame = 'What number is missing in the progression?';
 
 export const minInitialTermNumber = 1;
@@ -7,9 +9,7 @@ export const maxCommonDifferenceNumber = 15;
 export const progressionLength = 10;
 
 export const getQuestionAndCorrectAnswer = () => {
-  const initialTerm = Math.floor(Math.random() * (
-    maxInitialTermNumber - minInitialTermNumber + 1))
-  + minInitialTermNumber;
+  const initialTerm = getRandomNumber();
   const commonDifference = Math.floor(Math.random() * (
     maxCommonDifferenceNumber - minCommonDifferenceNumber + 1))
   + minCommonDifferenceNumber;

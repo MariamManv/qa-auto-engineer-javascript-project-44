@@ -1,7 +1,6 @@
-export const rulesOfTheGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+import getRandomNumber from '../utils.js';
 
-export const minNumber = 1;
-export const maxNumber = 100;
+export const rulesOfTheGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 export const isPrime = (number) => {
   if (number < 2) {
@@ -16,7 +15,7 @@ export const isPrime = (number) => {
 };
 
 export const getQuestionAndCorrectAnswer = () => {
-  const randomNumber = Math.floor((Math.random() * (maxNumber - minNumber + 1)) + minNumber);
+  const randomNumber = getRandomNumber();
   let correctAnswer;
   if (isPrime(randomNumber) === true) {
     correctAnswer = 'yes';
