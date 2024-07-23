@@ -7,15 +7,15 @@ export const executeBrainGames = (specificGame) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(specificGame.rulesOfTheGame);
-  let count = 0;
-  while (count < roundNumber) {
+  let correctAnswerCount = 0;
+  for (let count = 0; count < roundNumber; count += 1) {
     const { question, correctAnswer } = specificGame.getQuestionAndCorrectAnswer();
     console.log(`Question: ${question}`);
     const userInput = readlineSync.question('Your answer: ');
     if (userInput === correctAnswer) {
-      count += 1;
       console.log('Correct!');
-      if (count === roundNumber) {
+      correctAnswerCount += 1;
+      if (correctAnswerCount === roundNumber) {
         console.log(`Congratulations, ${userName}!`);
       }
     } else {
