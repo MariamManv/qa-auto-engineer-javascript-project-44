@@ -1,6 +1,6 @@
 export const rulesOfTheGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-import * as getRandomNumber from '../src/utils.js';
+import * as getRandomNumber from '../utils.js';
 
 export const isEven = (number) => number % 2 === 0;
 
