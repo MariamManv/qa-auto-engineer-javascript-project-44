@@ -5,7 +5,7 @@ import * as getRandomNumber from '../utils.js';
 export const isEven = (number) => number % 2 === 0;
 
 export const getQuestionAndCorrectAnswer = () => {
-  const randomNumber = getRandomNumber();
+  const randomNumber = getRandomNumber;
   let correctAnswer;
   if (isEven(randomNumber) === true) {
     correctAnswer = 'yes';
