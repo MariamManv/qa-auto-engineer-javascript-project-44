@@ -1,12 +1,11 @@
 export const rulesOfTheGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-export const minNumber = 1;
-export const maxNumber = 1000;
+import * as getRandomNumber from '../src/utils.js';
 
 export const isEven = (number) => number % 2 === 0;
 
 export const getQuestionAndCorrectAnswer = () => {
-  const randomNumber = Math.floor((Math.random() * (maxNumber - minNumber + 1)) + minNumber);
+  const randomNumber = getRandomNumber();
   let correctAnswer;
   if (isEven(randomNumber) === true) {
     correctAnswer = 'yes';
