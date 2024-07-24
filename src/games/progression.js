@@ -2,13 +2,11 @@ import getRandomNumber from '../utils.js';
 
 export const rulesOfTheGame = 'What number is missing in the progression?';
 
-export const minInitialTermNumber = 1;
-export const maxInitialTermNumber = 100;
 export const minCommonDifferenceNumber = 1;
 export const maxCommonDifferenceNumber = 15;
 export const progressionLength = 10;
 
-export const getQuestionAndCorrectAnswer = () => {
+export const makeprogression = () => {
   const initialTerm = getRandomNumber();
   const commonDifference = Math.floor(Math.random() * (
     maxCommonDifferenceNumber - minCommonDifferenceNumber + 1))
@@ -19,10 +17,14 @@ export const getQuestionAndCorrectAnswer = () => {
     progression.push(initialTerm + i * commonDifference);
     i += 1;
   }
+};
+
+export const getQuestionAndCorrectAnswer = () => {
+  const newProgression = makeprogression();
   const correctIndex = Math.floor(Math.random() * progressionLength);
-  const correctAnswer = String(progression[correctIndex]);
-  progression[correctIndex] = '..';
-  const finishedProgression = progression.join(' ');
+  const correctAnswer = String(newProgression[correctIndex]);
+  newProgression[correctIndex] = '..';
+  const finishedProgression = newProgression.join(' ');
   return {
     question: finishedProgression,
     correctAnswer,
