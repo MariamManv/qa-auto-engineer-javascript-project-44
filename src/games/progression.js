@@ -12,10 +12,8 @@ export const makeProgression = () => {
     maxCommonDifferenceNumber - minCommonDifferenceNumber + 1))
   + minCommonDifferenceNumber;
   const progression = [];
-  let i = 0;
-  while (i < progressionLength) {
+  for (let i = 0; i < progressionLength; i += 1) {
     progression.push(initialTerm + i * commonDifference);
-    i += 1;
   }
   return progression;
 };

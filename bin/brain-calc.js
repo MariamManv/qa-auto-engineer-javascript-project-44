@@ -3,6 +3,4 @@
 import * as engine from '../src/index.js';
 import * as brainCalc from '../src/games/calc.js';
 
-(function main() {
-  engine.executeBrainGames(brainCalc);
-}());
+engine.executeBrainGames(brainCalc);
