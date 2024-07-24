@@ -17,7 +17,7 @@ export const makeProgression = () => {
     progression.push(initialTerm + i * commonDifference);
     i += 1;
   }
-  return progression
+  return progression;
 };
 
 export const getQuestionAndCorrectAnswer = () => {
