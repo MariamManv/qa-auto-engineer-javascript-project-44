@@ -6,12 +6,7 @@ export const isEven = (number) => number % 2 === 0;
 
 export const getQuestionAndCorrectAnswer = () => {
   const randomNumber = getRandomNumber();
-  let correctAnswer;
-  if (isEven(randomNumber) === true) {
-    correctAnswer = 'yes';
-  } else {
-    correctAnswer = 'no';
-  }
+  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
   return {
     question: randomNumber,
     correctAnswer,
