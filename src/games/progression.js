@@ -7,9 +7,7 @@ export const maxCommonDifferenceNumber = 15;
 export const progressionLength = 10;
 
 export const makeProgression = (initialTerm) => {
-  const commonDifference = Math.floor(Math.random() * (
-    maxCommonDifferenceNumber - minCommonDifferenceNumber + 1))
-  + minCommonDifferenceNumber;
+  const commonDifference = getRandomNumber(minCommonDifferenceNumber, maxCommonDifferenceNumber);
   const progression = [];
   for (let i = 0; i < progressionLength; i += 1) {
     progression.push(initialTerm + i * commonDifference);
