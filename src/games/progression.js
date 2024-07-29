@@ -6,8 +6,7 @@ export const minCommonDifferenceNumber = 1;
 export const maxCommonDifferenceNumber = 15;
 export const progressionLength = 10;
 
-export const makeProgression = () => {
-  const initialTerm = getRandomNumber();
+export const makeProgression = (initialTerm) => {
   const commonDifference = Math.floor(Math.random() * (
     maxCommonDifferenceNumber - minCommonDifferenceNumber + 1))
   + minCommonDifferenceNumber;
@@ -19,7 +18,8 @@ export const makeProgression = () => {
 };
 
 export const getQuestionAndCorrectAnswer = () => {
-  const newProgression = makeProgression();
+  const initialTerm = getRandomNumber();
+  const newProgression = makeProgression(initialTerm);
   const correctIndex = Math.floor(Math.random() * progressionLength);
   const correctAnswer = String(newProgression[correctIndex]);
   newProgression[correctIndex] = '..';
